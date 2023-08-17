@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Números Mayor y Menor</title>
+</head>
+<body>
+    <h1>Determinar que numero entre los digitados por usuario es mayor y menor </h1>
+    <label>Ingrese la cantidad de numeros:</label>
+    <input type="number" id="cantidadNumeros">
+    <button onclick="crearInputs()">Ingrese los numeros</button>
+    <button onclick="calcularNumeros()">Calcular Numeros Mayor y Menor</button>
+
+    <div id="inputContainer"></div>
+
+    <div id="resultados" style="display: none;">
+        <p>Números ingresados: <span id="numerosIngresados"></span></p>
+        <p>Número Mayor: <span id="numeroMayor"></span></p>
+        <p>Número Menor: <span id="numeroMenor"></span></p>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
